@@ -4,7 +4,7 @@
 	String cmd = request.getParameter("cmd");
 %>
 <div>
-	<form action="<%= request.getContextPath() %>/control.jsp">
+	<form action="DispatcherServlet">
 		<table>
 			<tr>
 				<td>

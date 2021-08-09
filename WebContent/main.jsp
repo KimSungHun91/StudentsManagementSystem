@@ -23,7 +23,7 @@
 		margin-left: 15%;
 		text-align: center;
 		font-size: 0.8em;
-		background-color: #FAFAD2;
+		background-color: #FAFAD6;
 		border: 2px solid gray;
 	}
 	
@@ -120,7 +120,7 @@
 %>
 <body>
 	<div id="whole">
-		<h1>Student Management System</h1>
+		<h1>Client Management System</h1>
 		<div id="menuBox">
 			<jsp:include page="pages/menu.jsp" />
 		</div>

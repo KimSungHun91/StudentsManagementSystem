@@ -5,13 +5,13 @@
 	Student s = (Student)request.getAttribute("student");
 	if(s == null) {
 %>
-		<jsp:forward page="/control.jsp">
+		<jsp:forward page="DispatcherServlet">
 			<jsp:param value="nodata" name="cmd"/>
 		</jsp:forward>
 <%
 	} else {
 %>
-<form action="<%= request.getContextPath() %>/control.jsp" method="post">
+<form action="DispatcherServlet" method="post">
 	<table id="infoTable">
 		<tr>
 			<th>ID</th>

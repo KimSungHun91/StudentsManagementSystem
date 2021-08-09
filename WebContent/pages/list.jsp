@@ -8,14 +8,14 @@
 	<jsp:param value="getAll" name="cmd"/>
 </jsp:include>
 <table>
-	<caption>@ Student List @</caption>
+	<caption>¡Ý Client List ¡Ý</caption>
 	<thead>
 		<tr>
 			<th id="idCol">ID</th>
 			<th id="nameCol">Name</th>
-			<th id="telCol">Tel</th>
-			<th id="gradeCol">Grade</th>
-			<th id="classCol">Class</th>
+			<th id="telCol">TelNum</th>
+			<th id="gradeCol">Address</th>
+			<th id="classCol">Birth</th>
 		</tr>
 	</thead>
 	<tfoot>
@@ -47,10 +47,3 @@
 	%>
 	</tbody>
 </table>
-
-
-
-
-
-
-

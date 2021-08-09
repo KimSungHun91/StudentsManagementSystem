@@ -1,21 +1,21 @@
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
     pageEncoding="EUC-KR"%>
-<form action="<%= request.getContextPath() %>/control.jsp" method="post">
+<form action="DispatcherServlet" method="post">
 	<table id="infoTable">
 		<tr>
 			<th id="infoHeader">NAME</th>
 			<th><input type="text" name="s_name" /></th>
 		</tr>
 		<tr>
-			<th>Tel</th>
+			<th>TelNum</th>
 			<th><input type="text" name="s_tel" /></th>
 		</tr>
 		<tr>
-			<th>Grade</th>
+			<th>Address</th>
 			<th><input type="text" name="s_grade" /></th>
 		</tr>
 		<tr>
-			<th>Class</th>
+			<th>Birth</th>
 			<th><input type="text" name="s_class" /></th>
 		</tr>
 		<tr>
