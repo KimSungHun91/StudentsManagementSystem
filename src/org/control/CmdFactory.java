@@ -26,5 +26,6 @@ public class CmdFactory {
 	
 	public static void doAction(HttpServletRequest request, String cmd) {
 		cmds.get(cmd).action(request);
+		
 	}
 }
